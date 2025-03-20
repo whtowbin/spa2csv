@@ -1,0 +1,1 @@
+Simple GUI for drag and drop conversion of thermo SPA files to CSV files
