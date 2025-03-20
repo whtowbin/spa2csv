@@ -7,7 +7,7 @@ from datetime import datetime, timedelta, timezone
 # import scipy.signal
 import pandas as pd
 import re
-import xarray as xr
+
 
 # from .Spectrum_obj import Spectrum
 
