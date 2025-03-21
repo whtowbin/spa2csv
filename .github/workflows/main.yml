@@ -15,12 +15,12 @@ jobs:
        uses: actions/setup-python@v5
        with:
          python-version: '3.12'
-         cache: 'pip'
+         cache: 'uv'
          cache-dependency-path: |
            **/requirements*.txt
      - name: Install your Dependencies
        run: |
-         pip install -r requirements.txt -r requirements-dev.txt
+         uv pip install -r requirements.txt -r requirements-dev.txt
      - name: Build Executable with Nuitka
        uses: Nuitka/Nuitka-Action@main
        with:
