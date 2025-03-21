@@ -1,1 +1,1 @@
-Simple GUI for drag and drop conversion of thermo SPA files to CSV files
+Simple GUI for drag and drop conversion of Thermo FTIR SPA files to CSV files
