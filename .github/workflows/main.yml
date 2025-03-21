@@ -1,5 +1,6 @@
 jobs:
 build:
+   name: Nuitka build
    strategy:
       matrix:
       os: [macos-latest, ubuntu-latest, windows-latest]
