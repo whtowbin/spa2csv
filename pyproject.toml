@@ -1,10 +1,11 @@
 [project]
 name = "spa2csv"
 version = "0.1.0"
-description = "Add your description here"
+description = "Drag-and-drop converter from Thermo FTIR .spa files to CSV"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "numpy>=1.26",
     "pandas>=2.2.3",
-    "tkinterdnd2>=0.4.3",
+    "tkinterdnd2>=0.6",
 ]
